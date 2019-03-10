@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block tittle  %}{% endblock %} | SM1</title>
+</head>
+<body>
+    <!-- Encabezado -->
+    <h1>SM1</h1>
+    <ul>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/search/">Buscar</a></li>
+        <li><a href="/about/">Acerca de</a></li>
+        <li><a href="/contact/">Contacto</a></li>
+    </ul>
+    <!-- Contenido -->
+    {% block content %}{% endblock %}
+</body>
+</html>
+
